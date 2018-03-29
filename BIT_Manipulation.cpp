@@ -36,7 +36,7 @@ void NOT(int a){
 	cout<<"NOT of "<<a<<" ("<<bitset<8>(a)<<") is "<<c<<" ("<<bitset<8>(c)<<") "<<endl;
 }
 
-//Bitwis Left Shift//
+//Bitwise Left Shift//
 void leftShift(int a, int shifts) {
 	int c= a << shifts;
 	cout<<"LEFT SHIFT of "<<a<<" ("<<bitset<8>(a)<<") is "<<c<<" ("<<bitset<8>(c)<<") "<<endl;
@@ -70,7 +70,7 @@ void CLEARbit(int a, int pos) {
 void FLIPbit(int a, int pos) {
 	int mask=1<<pos;
 	int result= a ^ mask;
-	cout<<"After setting a bit "<<a<<" ("<<bitset<8>(a)<<") is "<<result<<" ("<<bitset<8>(result)<<") "<<endl;
+	cout<<"After flipping a bit "<<a<<" ("<<bitset<8>(a)<<") is "<<result<<" ("<<bitset<8>(result)<<") "<<endl;
 
 }
 
